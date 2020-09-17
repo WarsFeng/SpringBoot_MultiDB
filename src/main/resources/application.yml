@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    reader:
+      jdbc-url: jdbc:mysql://rcat:3306/ompf?useUnicode=true@characterEncoding=utf-8
+      username: root
+      password:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    writer:
+      jdbc-url: jdbc:mysql://rcat:3306/hero_story?useUnicode=true@characterEncoding=utf-8
+      username: root
+      password:
+      driver-class-name: com.mysql.cj.jdbc.Driver
